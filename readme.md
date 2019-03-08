@@ -51,7 +51,7 @@ git clone https://github.com/fnplus/sdc-studyjam.git
 cd sdc-studyjam
 ```
 
-2. Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
+2. Create (and activate) a new environment, named `sdc-fnplus` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
 	- __Linux__ or __Mac__: 
 	```
@@ -60,7 +60,9 @@ cd sdc-studyjam
 	```
 	- __Windows__: 
 	```
-	conda create --name sdc-fnplus python=3.6
+	conda create --name sdc-fnplus python=3.6 
+	or
+	conda create -n yourenvname python=x.x anaconda
 	conda activate sdc-fnplus
 	```
 3. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
@@ -79,7 +81,7 @@ conda deactivate sdc-fnplus
 
 ### Notes on environment creation and deletion
 
-**Verify** that the `cv-nd` environment was created in your environments:
+**Verify** that the `sdc-fnplus` environment was created in your environments:
 
 ```
 conda info --envs
